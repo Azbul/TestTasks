@@ -1,0 +1,6 @@
+SELECT Products.Product_Name as Имя_продукта,
+       Categories.Category_Name as Имя_категории
+FROM 
+       Products LEFT JOIN Categories
+ON Products.Product_ID = Categories.Category_ID
+
